@@ -45,7 +45,7 @@ git clone https://github.com/your-username/AI_Project.git
 cd AI_Project
 pip install -r requirements.txt
 streamlit run app.py
-
+```
 ## 📸 Screenshots
 
 ### UI
