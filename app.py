@@ -16,7 +16,7 @@ client = anthropic.Anthropic(
     api_key=st.secrets["ANTHROPIC_API_KEY"]
 )
 
-st.title("AI Data Analyst")
+st.title("AI Query Generator")
 
 uploaded_files = st.file_uploader("Upload CSVs", type=["csv"], accept_multiple_files=True)
 
