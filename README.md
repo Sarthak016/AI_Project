@@ -49,19 +49,20 @@ streamlit run app.py
 ## 📸 Screenshots
 
 ### UI
-<img width="1333" height="731" alt="ss1" src="https://github.com/user-attachments/assets/0bbfafd6-b513-483e-a89f-a98cf6d1290c" />
+<img width="900" height="600" alt="ss1" src="https://github.com/user-attachments/assets/0bbfafd6-b513-483e-a89f-a98cf6d1290c" />
 
 ### Uploading Dataset
-<img width="1002" height="667" alt="ss2" src="https://github.com/user-attachments/assets/e2af0bd5-c080-4937-a2ad-51a95c420dc9" />
+<img width="900" height="600" alt="ss2" src="https://github.com/user-attachments/assets/e2af0bd5-c080-4937-a2ad-51a95c420dc9" />
 
 ### Query Writing
-<img width="1017" height="515" alt="ss3" src="https://github.com/user-attachments/assets/2c0f21a3-8c97-4556-97c5-aa7d691f2e5b" />
+<img width="800" height="293" alt="ss3" src="https://github.com/user-attachments/assets/ee3f3daf-02c3-41f6-b596-5ab3729aec65" />
+
 
 ### Query Explanation
-<img width="1045" height="755" alt="ss4" src="https://github.com/user-attachments/assets/5d822605-924a-4a03-965f-b5255126f2d0" />
+<img width="900" height="600" alt="ss4" src="https://github.com/user-attachments/assets/5d822605-924a-4a03-965f-b5255126f2d0" />
 
 ### Graph
-<img width="997" height="567" alt="ss5" src="https://github.com/user-attachments/assets/fd722357-4415-40d7-899d-9b9d425f1025" />
+<img width="900" height="600" alt="ss5" src="https://github.com/user-attachments/assets/fd722357-4415-40d7-899d-9b9d425f1025" />
 
 ### Insight
 <img width="963" height="340" alt="ss6" src="https://github.com/user-attachments/assets/0a12a885-0b32-4165-ab56-12bc7c635d8d" />
