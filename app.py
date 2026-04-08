@@ -25,9 +25,18 @@ if uploaded_files:
     table_info = []   # ✅ store schema info
 
     for file in uploaded_files:
-        df = pd.read_csv(file)
+        try:
+            df = pd.read_csv(file, encoding='utf-8')
+        except UnicodeDecodeError:
+            try:
+                df = pd.read_csv(file, encoding='latin1')
+                st.warning(f"{file.name}: Loaded using latin1 encoding")
+            except UnicodeDecodeError:
+                df = pd.read_csv(file, encoding='ISO-8859-1')
+                st.warning(f"{file.name}: Loaded using ISO-8859-1 encoding")
+    
         table_name = file.name.split(".")[0].replace(" ", "_").lower()
-
+    
         df.to_sql(table_name, conn, if_exists="replace", index=False)
 
         # Store schema
